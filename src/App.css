@@ -1,0 +1,25 @@
+.App video {
+  position: fixed;
+  display: block;
+  margin: -80px auto;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+}
+
+.App .Weather-app {
+  max-width: 600px;
+  margin: 80px auto;
+}
+
+.App footer {
+  font-family: monospace, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+}
+
+.App footer a {
+  text-decoration: none;
+}
